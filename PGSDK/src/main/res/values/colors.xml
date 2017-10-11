@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jmSdkColorPrimary">#29b6f6</color>
+    <color name="jmSdkColorPrimaryDark">#03a9f4</color>
+    <color name="jmSdkColorAccent">#81d4fa</color>
+    <color name="jmSdk_primary_text">#212121</color>
+    <color name="jmSdk_secondary_text">#757575</color>
+    <color name="jmSdk_divider_color">#BDBDBD</color>
+    <color name="white_color">#fff</color>
+</resources>

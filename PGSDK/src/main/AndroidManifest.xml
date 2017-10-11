@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ril.jm_sdk"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".activity.JMWebActivity"
+            android:label="Web Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/JmSdkTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+
+    </application>
+
+</manifest>

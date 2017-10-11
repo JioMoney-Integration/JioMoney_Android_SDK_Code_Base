@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="JmSdkTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/jmSdkColorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/jmSdkColorPrimary</item>
+        <item name="colorAccent">@color/jmSdkColorAccent</item>
+        <item name="android:textColor">@color/jmSdk_primary_text</item>
+        <item name="android:typeface">monospace</item>
+     </style>
+
+
+    <style name="JmSdkTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="primary_button" parent="JmSdkTheme.NoActionBar">
+        <item name="android:background">@drawable/primary_button</item>
+        <item name="android:textColor">@color/white_color</item>
+    </style>
+
+    <style name="SDKTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="SDKTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

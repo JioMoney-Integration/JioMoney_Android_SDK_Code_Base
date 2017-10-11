@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SDK_PG</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="timestamp_hint">Timestamp</string>
+    <string name="transaction_ext_ref_hint">Ext. Ref. No.</string>
+    <string name="transaction_amount_hint">Amount</string>
+    <string name="mobile_hint">Mobile Number</string>
+    <string name="lm_mobile_input">Make Payment</string>
+    <string name="title_activity_cc">CCActivity</string>
+
+    <!--Jiomoney Title-->
+    <string name="jiomoney_title">JioMoney Payment</string>
+
+    <!--Back Button Dialog Box Extras-->
+    <string name="back_title">CANCEL</string>
+    <string name="back_message">Are you sure, you want to CANCEL the transaction?</string>
+    <string name="back_positive">Ok</string>
+    <string name="back_negative">Cancel</string>
+    <string name="auto_otp_msg">Auto proceed OTP...</string>
+    <!--<string name="otp_string">javascript:var otpTxt = document.getElementById('otpns');
+</string>-->
+
+   <!-- <string name = "submitOtpScript">$(\'#jmsignup-btn\').click()\u003B</string>
+    <string name = "setOtp">var otpTxt = document.getElementById(\'otpns\')\u003Bconsole.log(\'otps\'+otpTxt)&amp;otpTxt.value = %1$&amp;$(\'#jmsignup-btn\').removeClass(\'disableClick\')&amp;</string>
+-->
+
+
+</resources>
