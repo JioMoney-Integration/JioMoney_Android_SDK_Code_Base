@@ -1,9 +1,7 @@
 # JioMoney_Android_SDK
 JioMoney Android SDK enables merchants to integrate JioMoney wallet inside their android application using 3 easy steps. And SDK can be  understood by developer with basic android knowledge. 
-
 # Requirements 
 SDK supports minimum version of android API LEVEL 10 that is version 2.3.3.
- 
 # Installation
 <pre>Import/add library into your project. You can do this in following two ways.
 <b>a.</b>	Add project dependency inside build.gradle file of app 
@@ -23,12 +21,10 @@ Add dependency to app level of build.gradle
 compile(name:'jm_sdk', ext:'aar')
 
 Then synchronise the project.
-<b>b.</b>	Go to project structure of android studio and add file dependency in dependencies tab.</br>
-Below is the link for instructions for importing .aar file into Android Studio</br>
-
+<b>b.</b>	Go to project structure of android studio and add file dependency in dependencies tab.
+Below is the link for instructions for importing .aar file into Android Studio
 <pre>https://stackoverflow.com/questions/16682847/how-to-manually-include-external-aar-package-using-new-gradle-android-build-syst
 </pre></br>
-
 # Usage
 <b>1.</b>Initialize the SDK with below code.
 JMPaymentConfig.getInstance()
@@ -59,7 +55,6 @@ JMPaymentService.getInstance().makePayment(context, JMPayment, new JMPaymentTran
     public void onError(int errorCode, final String error) {
     }
 });
-
 # More Description
 Parameter Details:
 <b>client_id:-</b> This is provided by Integration team for integration and testing in Sandbox environment.
