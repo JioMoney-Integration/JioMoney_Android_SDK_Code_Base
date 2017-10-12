@@ -9,6 +9,7 @@ SDK supports minimum version of android API LEVEL 10 that is version 2.3.3.
 <b>a.</b>	Add project dependency inside build.gradle file of app 
 Add .arr file into libs directory of project
 Add below code to project level build.gradle
+
 allprojects {
    repositories {
       jcenter()
@@ -18,13 +19,15 @@ allprojects {
    }
 }
 Add dependency to app level of build.gradle
+
 compile(name:'jm_sdk', ext:'aar')
 
 Then synchronise the project.
 <b>b.</b>	Go to project structure of android studio and add file dependency in dependencies tab.</br>
 Below is the link for instructions for importing .aar file into Android Studio</br>
-<pre>https://stackoverflow.com/questions/16682847/how-to-manually-include-external-aar-package-using-new-gradle-android-build-syst</br>
-</pre>
+
+<pre>https://stackoverflow.com/questions/16682847/how-to-manually-include-external-aar-package-using-new-gradle-android-build-syst
+</pre></br>
 
 # Usage
 <b>1.</b>Initialize the SDK with below code.
@@ -38,14 +41,16 @@ JMPaymentConfig.getInstance()
                 .setEnableLog(true)
                 .setAutoSubmitOTP(true)
                 .init(this);
-<b>2.</b>Set necessary parameters Create the instance of JMPayment model with basic values(mandatory)</br>
+		
+<b>2.</b>Set necessary parameters Create the instance of JMPayment model with basic values(mandatory)
 JMPayment payment = new JMPayment(“extRefNo",
         “timestamp”,
         amount,
         mobile,
         “checksumHash”);
+	
 <b>3.</b>Call payment method to process the payment.
-	JMPaymentService.getInstance().makePayment(context, JMPayment, new JMPaymentTransactionCallback() {
+JMPaymentService.getInstance().makePayment(context, JMPayment, new JMPaymentTransactionCallback() {
     @Override
     public void onResponse(final JMPaymentResponse JMPaymentResponse, String rawResponse) {
         Log.d(TAG, "response: " + JMPaymentResponse.toString());      
@@ -54,6 +59,7 @@ JMPayment payment = new JMPayment(“extRefNo",
     public void onError(int errorCode, final String error) {
     }
 });
+
 # More Description
 Parameter Details:
 <b>client_id:-</b> This is provided by Integration team for integration and testing in Sandbox environment.
