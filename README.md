@@ -83,7 +83,7 @@ b.	If you are not setting product description and UDF’s in JMPayment instance 
 Clientid|Amount|Extref|Channel|MerchantId|Token|ReturnUrl|TxnTimeStamp|TxnType|subscriber.mobilenumber
 
 2.	If you want to add more parameters mentioned in Integration doc, there is a provision to set those values using setter method of JMPayment class.
-#Credits/Feedback
+# Credits/Feedback
 <b>JioMoney Integration Team</b>
 Post your feeback on <b>JioMoney.IntegrationECOMM@ril.com</b>
 
